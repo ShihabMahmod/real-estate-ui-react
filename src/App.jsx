@@ -1,8 +1,9 @@
 import "./layout.scss"
+import Navbar from "./components/Nevbar"
 function App() {
   return (
     <div className="layout">
-      HELLO
+      <Navbar/>
     </div>
   )
 }
